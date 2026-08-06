@@ -1,0 +1,56 @@
+{
+  "source": "기상청 초단기실황",
+  "sourceUrl": "https://www.data.go.kr/data/15084084/openapi.do",
+  "collectedAt": "2026-08-06T14:07:32+09:00",
+  "_note": "구조 예시입니다. 실제 응답은 npm run samples 로 갱신하세요.",
+  "raw": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "baseDate": "20260806",
+              "baseTime": "1400",
+              "category": "T1H",
+              "obsrValue": "31.2",
+              "nx": 102,
+              "ny": 84
+            },
+            {
+              "baseDate": "20260806",
+              "baseTime": "1400",
+              "category": "RN1",
+              "obsrValue": "0",
+              "nx": 102,
+              "ny": 84
+            },
+            {
+              "baseDate": "20260806",
+              "baseTime": "1400",
+              "category": "REH",
+              "obsrValue": "74",
+              "nx": 102,
+              "ny": 84
+            },
+            {
+              "baseDate": "20260806",
+              "baseTime": "1400",
+              "category": "WSD",
+              "obsrValue": "2.4",
+              "nx": 102,
+              "ny": 84
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 20,
+        "totalCount": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+﻿timestamp,sensorId,sensorName,sensorType,value,unit,location,status,isAnomaly,source,equipmentId,collectedAt,originCode,originValue
+2026-08-06T14:00:00+09:00,TANK-01-WATER_TEMP,저수조 수온,temperature,25.7,℃,울산 OO배수지 · 정수 저수조,danger,true,기상청 초단기실황,TANK-01,2026-08-06T14:07:32+09:00,KMA:T1H,31.2
+2026-08-06T14:00:00+09:00,PUMP-01-BEARING_TEMP,펌프 베어링 온도,temperature,57,℃,울산 OO배수지 · 1호 가압펌프,warning,true,기상청 초단기실황,PUMP-01,2026-08-06T14:07:32+09:00,KMA:T1H,31.2
+2026-08-06T14:00:00+09:00,PIPE-01-INFLOW,유입 유량,flow,120,㎥/h,울산 OO배수지 · 유입 관로,normal,false,기상청 초단기실황,PIPE-01,2026-08-06T14:07:32+09:00,KMA:RN1,0
+2026-08-06T14:00:00+09:00,TANK-01-LEVEL,저수조 수위,level,72,%,울산 OO배수지 · 정수 저수조,normal,false,기상청 초단기실황,TANK-01,2026-08-06T14:07:32+09:00,KMA:RN1,0
+2026-08-06T14:00:00+09:00,PUMP-01-ROOM_HUMIDITY,펌프실 습도,humidity,74,%,울산 OO배수지 · 1호 가압펌프,normal,false,기상청 초단기실황,PUMP-01,2026-08-06T14:07:32+09:00,KMA:REH,74
+2026-08-06T14:00:00+09:00,VALVE-01-DIFF_PRESSURE,밸브 차압,pressure,2.09,bar,울산 OO배수지 · 유출 제어밸브,normal,false,기상청 초단기실황,VALVE-01,2026-08-06T14:07:32+09:00,KMA:WSD,2.4
+2026-08-06T14:00:00+09:00,FILTER-01-LOAD,여과설비 부하율,load,44.2,%,울산 OO배수지 · 전처리 여과설비,normal,false,에어코리아 대기오염정보,FILTER-01,2026-08-06T14:07:32+09:00,AIRKOREA:PM10,32

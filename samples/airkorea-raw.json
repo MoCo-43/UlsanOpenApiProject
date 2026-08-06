@@ -1,0 +1,40 @@
+{
+  "source": "에어코리아 대기오염정보",
+  "sourceUrl": "https://www.data.go.kr/data/15073861/openapi.do",
+  "collectedAt": "2026-08-06T14:07:33+09:00",
+  "_note": "구조 예시입니다. 실제 응답은 npm run samples 로 갱신하세요.",
+  "raw": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL SERVICE."
+      },
+      "body": {
+        "totalCount": 16,
+        "items": [
+          {
+            "stationName": "여천",
+            "dataTime": "2026-08-06 14:00",
+            "pm10Value": "-",
+            "pm25Value": "14",
+            "o3Value": "0.048"
+          },
+          {
+            "stationName": "신정동",
+            "dataTime": "2026-08-06 14:00",
+            "pm10Value": "32",
+            "pm25Value": "18",
+            "o3Value": "0.051"
+          },
+          {
+            "stationName": "덕신",
+            "dataTime": "2026-08-06 14:00",
+            "pm10Value": "29",
+            "pm25Value": "15",
+            "o3Value": "0.047"
+          }
+        ]
+      }
+    }
+  }
+}

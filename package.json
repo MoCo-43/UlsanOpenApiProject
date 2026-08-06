@@ -1,0 +1,32 @@
+{
+  "name": "ulsan-water-digital-twin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n SERVER,CLIENT -c cyan,green \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "nodemon server/index.js",
+    "dev:client": "vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "verify": "node scripts/verify.js",
+    "model": "node scripts/export-model.js",
+    "csv": "node scripts/export-csv.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "three": "^0.169.0",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.7",
+    "vite": "^5.4.10"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}
